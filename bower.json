@@ -1,0 +1,25 @@
+{
+  "name": "Tasik HTml",
+  "authors": [
+    "Rizky <rizkyshofyan@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "flux-slider": "~1.4.4",
+    "holderjs": "~2.9.0",
+    "hover": "~2.0.2"
+  }
+}
