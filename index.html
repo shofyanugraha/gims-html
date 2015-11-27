@@ -7,8 +7,7 @@
 
 	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/vendor/hover/css/hover-min.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/hover/css/hover-min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/slider-style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/layerslider.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
@@ -45,43 +44,24 @@
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
-	<section class="sliderSection">
-	    <div id="slider-wrapper">
-	        <div id="cute-slider" class="cute-slider" data-width="800" data-height="350" data-force="">
-	            <ul data-type="slides">
-	                <li data-delay="4" data-trans3d="tr2,tr20,tr57" data-trans2d="tr1,tr14,tr26">
-	                    <img src="assets/images/slider.jpg" data-thumb="assets/images/slider.jpg	" />
-	                    <div data-type="info" class="info1" data-align="right">
-	                        <div>
-	                            <h1 class="title">Tired of boring flat sliders?</h1>
-	                            <p class="text">
-	                                Looking for a unique slider? Here's what you want, with Cute Slider you will be able to show your slides with awesome 3D &amp; 2D transitions.
-	                            </p>
-	                        </div>
-	                    </div>
-	                </li>
-	                <li data-delay="4" data-trans3d="tr4,tr21,tr62" data-trans2d="tr5,tr23,tr30">
-	                    <img src="assets/cute-theme/blank.jpg" data-src="assets/images/slider1.jpg" data-thumb="assets/images/slider1.jpg" />
-	                    <div data-type="info" class="info1" data-align="right">
-	                        <div>
-	                            <h1 class="title">Lorem ipsum dolor sit amet</h1>
-	                            <p class="text">
-	                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-	                            </p>
-	                        </div>
-	                    </div>
-	                </li>
-	            </ul>
-	            <ul data-type="controls">
-	                <li data-type="slideinfo" data-effect="fade"> </li>
-	                <li data-type="circletimer" data-color="#333333" data-stroke="13"> </li>
-	                <li data-type="next"> </li>
-	                <li data-type="previous"> </li>
-	                <li data-type="slidecontrol" data-thumbalign="up"> </li>
-	            </ul>
+	<div class="slider-container">
+	    
+	    <div id="layerslider_22" class="ls-wp-container" style="width:100%;height:400px;margin:0 auto;margin-bottom: 50px;">
+	        <div class="ls-slide" data-ls="slidedelay:4500;transition2d:all;transition3d:36;timeshift:-1000;">
+	        	<img src="assets/images/blank.gif" data-src="assets/images/slider.jpg" class="ls-bg" alt="Slide background" />
+	        	<div class="ls-l" style="top:83px;left:80px;" data-ls="offsetxin:left;delayin:100;fadein:false;offsetxout:left;durationout:1500;showuntil:2000;fadeout:false;">
+	        		<h1>Application</h1>
+	        		<p>Lorem ipsum dolor sit amet</p>
+	        	</div>
 	        </div>
+	        <div class="ls-slide" data-ls="slidedelay:4500;transition2d:all;transition3d:36;timeshift:-1000;">
+	        	<img src="assets/images/blank.gif" data-src="assets/images/slider1.jpg" class="ls-bg" alt="Slide background" />
+	        	<h1>Application</h1>
+        		<p>Lorem ipsum dolor sit amet</p>
+	        </div>
+
 	    </div>
-	</section>
+	</div>
 	<section class="content">
 		<div class="container">
 			<div class="row">
@@ -220,8 +200,9 @@
 	<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
 	<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="assets/vendor/holderjs/holder.min.js"></script>
-	<script src="assets/js/cute.slider.js"></script>
-	<script src="assets/js/cute.transition.js"></script>
+	<script src="assets/js/greensock.js"></script>
+	<script src="assets/js/layerslider.kreaturamedia.jquery.js"></script>
+	<script src="assets/js/layerslider.transitions.js"></script>
 	<script src="assets/js/custom.js"></script>
 </body>
 </html>
