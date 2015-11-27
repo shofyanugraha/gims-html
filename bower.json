@@ -12,7 +12,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "assets",
+    "assets/vendor",
     "test",
     "tests"
   ],
