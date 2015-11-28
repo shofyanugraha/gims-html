@@ -3,3 +3,4 @@ assets/vendor
 config.codekit
 .codekit-cache
 assets/scss/.sass-cache
+*.scssc
