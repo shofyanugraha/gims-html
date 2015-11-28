@@ -10,16 +10,18 @@ h1, h2, h3, h4, h5, h6 { font-family: 'PT Serif', sans-serif; }
 
 .ls-shadow { display: none !important; }
 
-.btn { border-radius: 0; background: #618C6B; border-color: #618C6B; }
+.btn { border-radius: 0; }
+.btn.btn-success { background: #053405; border-color: #053405; }
+.btn.btn-success:hover { background: #0a5e09; border-color: #0a5e09; }
 
 .navbar { margin-bottom: 0; }
 
 .navbar-brand { font-size: 2em; height: 60px; padding-top: 5px; padding-bottom: 5px; }
 .navbar-brand > img { display: inline-block; margin-right: 10px; }
 
-.navbar-default .navbar-nav > li > a { border-top: 4px solid transparent; padding-top: 16px; padding-bottom: 20px; }
-.navbar-default .navbar-nav > li > a:hover { border-top: 4px solid #8fba98; }
-.navbar-default .navbar-nav > li.active > a { border-top: 4px solid #618C6B; color: #618C6B; background: transparent; }
+.navbar-default .navbar-nav > li > a { border-top: 4px solid transparent; padding-top: 16px; padding-bottom: 20px; font-weight: bold; }
+.navbar-default .navbar-nav > li > a:hover { border-top: 4px solid #053405; }
+.navbar-default .navbar-nav > li.active > a { border-top: 4px solid #0a5e09; color: #0a5e09; background: transparent; }
 .navbar-default .navbar-nav > li.active > a:hover { background: transparent; }
 
 .post.post-list { margin-bottom: 40px; }
@@ -32,12 +34,12 @@ h1, h2, h3, h4, h5, h6 { font-family: 'PT Serif', sans-serif; }
 .post .content-sep { height: 6px; border-top: 1px solid #EAEAEA; border-bottom: 1px solid #EAEAEA; margin: 15px 0; }
 .post .inline-sep { margin: 0 5px; }
 
-#sidebar-menu > li { border-left: 4px solid #618C6B; }
-#sidebar-menu > li.active > a { background: #8baf93; color: #fff; border-color: #618C6B; }
+#sidebar-menu > li { border-left: 4px solid #0A6309; }
+#sidebar-menu > li.active > a { background: #11a90f; color: #fff; border-color: #0A6309; }
 #sidebar-menu > li.active > a .fa { color: #fff; }
 #sidebar-menu > li > a { border-radius: 0; color: #222; padding: 20px; }
-#sidebar-menu > li > a:hover { background-color: #d6e3d9; }
-#sidebar-menu .fa { margin-right: 10px; vertical-align: middle; color: #618C6B; }
+#sidebar-menu > li > a:hover { background-color: #4bef4a; }
+#sidebar-menu .fa { margin-right: 10px; vertical-align: middle; color: #0A6309; }
 
 footer { position: absolute; bottom: 0; width: 100%; /* Set the fixed height of the footer here */ background: #2a2d2b; color: #fff; padding: 20px 0; }
 footer p { margin: 0; }

@@ -1,6 +1,8 @@
-$green: #618C6B;
+$green: #0A6309;
 $greenlight: lighten($green, 15%);
 $greenlighter: lighten($green, 40%);
+$greendark: darken($green, 1%);
+$greendarker: darken($green, 10%);
 *{
 	margin: 0;
 }
@@ -27,8 +29,14 @@ h1, h2, h3, h4, h5, h6{
 
 .btn{
 	border-radius: 0;
-	background: #618C6B;
-	border-color: #618C6B;
+	&.btn-success{
+		background: $greendarker;
+		border-color: $greendarker;
+		&:hover{
+			background: $greendark;
+			border-color: $greendark;
+		}
+	}
 }
 
 .navbar{
@@ -50,14 +58,15 @@ h1, h2, h3, h4, h5, h6{
 		border-top: 4px solid transparent;
 		padding-top: 16px;
 		padding-bottom: 20px;
+		font-weight: bold;
 		&:hover{
-			border-top: 4px solid #8fba98;
+			border-top: 4px solid $greendarker;
 		}
 	}
 	&.active{
 		> a{
-			border-top: 4px solid #618C6B;
-			color: #618C6B;
+			border-top: 4px solid $greendark;
+			color: $greendark;
 			background: transparent;
 			&:hover{
 				background: transparent;
