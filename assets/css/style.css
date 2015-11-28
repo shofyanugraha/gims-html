@@ -32,6 +32,13 @@ h1, h2, h3, h4, h5, h6 { font-family: 'PT Serif', sans-serif; }
 .post .content-sep { height: 6px; border-top: 1px solid #EAEAEA; border-bottom: 1px solid #EAEAEA; margin: 15px 0; }
 .post .inline-sep { margin: 0 5px; }
 
+#sidebar-menu > li { border-left: 4px solid #618C6B; }
+#sidebar-menu > li.active > a { background: #8baf93; color: #fff; border-color: #618C6B; }
+#sidebar-menu > li.active > a .fa { color: #fff; }
+#sidebar-menu > li > a { border-radius: 0; color: #222; padding: 20px; }
+#sidebar-menu > li > a:hover { background-color: #d6e3d9; }
+#sidebar-menu .fa { margin-right: 10px; vertical-align: middle; color: #618C6B; }
+
 footer { position: absolute; bottom: 0; width: 100%; /* Set the fixed height of the footer here */ background: #2a2d2b; color: #fff; padding: 20px 0; }
 footer p { margin: 0; }
 

@@ -1,3 +1,6 @@
+$green: #618C6B;
+$greenlight: lighten($green, 15%);
+$greenlighter: lighten($green, 40%);
 *{
 	margin: 0;
 }
@@ -103,6 +106,36 @@ h1, h2, h3, h4, h5, h6{
 		margin: 0 5px;
 	}
 }
+
+#sidebar-menu{
+	>li{
+		border-left: 4px solid $green;
+		&.active > a{
+			background: $greenlight;
+			color: #fff;
+			border-color: $green;
+			.fa{
+				color: #fff;
+			}
+		}
+		> a
+		{
+			border-radius: 0;
+			color: #222;
+			padding: 20px;
+			
+			&:hover{
+				background-color: $greenlighter;
+			}
+		}
+	}
+	.fa{
+		margin-right: 10px;
+		vertical-align: middle;
+		color: $green;
+	}
+}
+
 
 footer{
 	position: absolute;
