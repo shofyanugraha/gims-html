@@ -19,6 +19,7 @@
   "dependencies": {
     "bootstrap": "~3.3.6",
     "holderjs": "~2.9.0",
-    "hover": "~2.0.2"
+    "hover": "~2.0.2",
+    "fontawesome": "~4.5.0"
   }
 }
